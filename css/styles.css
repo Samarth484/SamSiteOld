@@ -55,7 +55,13 @@ a:hover {
 .skills {
   font-family: 'Comic Neue', cursive;
 }
+.last {
+  background-color: #347474;
+}
 
+.lastimg {
+  width: 3%;
+}
 .top-container {
   background-color: #e4f9f5;
   position: relative;
@@ -107,7 +113,11 @@ p {
   right: 350px;
   top: 50px;
 }
-
+.shake {
+  position: absolute;
+  padding: 0 10% 50% 10%;
+    width: 15%;
+}
 hr {
   width: 4%;
   border: dotted #eaf6f6 6px;
