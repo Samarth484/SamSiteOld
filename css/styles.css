@@ -175,10 +175,22 @@ hr {
   padding: 20px 0;
 }
 
+.lastline {
+  font-family: 'Comic Neue', cursive;
+  width: 25%;
+  margin: 40px auto 60px;
+}
+
 #end_sentence {
   font-family: 'Comic Neue', cursive;
   width: 25%;
   margin: 40px auto 60px;
+}
+
+.twitter-tweet {
+  padding-left: 35%;
+  align-self: center;
+  size: 3%;
 }
 
 .btn {
@@ -206,4 +218,3 @@ hr {
   position: relative;
   top: 1px;
 }
-
