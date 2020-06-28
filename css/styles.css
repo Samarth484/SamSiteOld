@@ -224,7 +224,7 @@ hr {
   animation: bganimation 125s infinite;
 
 }
-@keyframes bganimation {
+/* @keyframes bganimation {
   0%{
     background-position: 0% 50%;
   }
@@ -235,3 +235,4 @@ hr {
     background-position: 0% 50%;
   }
 }
+ */
