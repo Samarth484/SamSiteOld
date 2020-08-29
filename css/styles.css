@@ -237,3 +237,78 @@ hr {
     background-position: 0% 50%;
   }
 }
+
+
+@keyframes yourAnimation{
+
+  0%{
+    transform: rotate(0) translateX(-50%);
+    opacity: 0;
+    }
+  /* 25%{
+      transform: rotate(0) translateX(-37.5%);
+      opacity: 0.25;
+      } */
+  /* 50%{
+      transform: rotate(0) translateX(-25%) translateY(0);
+      opacity: 0.5;
+      } */
+  /* 75%{
+      transform: rotate(0) translateX(-12.5%) translateY(0);
+      opacity: 0.75;
+      } */
+  100%{
+      transform: rotate(0) translateX(0) translateY(0);
+      opacity: 1;
+      }
+  /* 50%{
+      transform: rotate(0) translateX(-30%) translateY(0);
+      opacity: 0.6;
+     
+      }
+  60%{
+      transform: rotate(0) translateX(-25%) translateY(0);
+      opacity: 0.7;
+      }
+  70%{
+      transform: rotate(0) translateX(-20%) translateY(0);
+      opacity: 0.8;
+      }
+  80%{
+      transform: rotate(0) translateX(-15%) translateY(0);
+      opacity: 0.9;
+      }
+  90%{
+      transform: rotate(0) translateX(-10%) translateY(0);
+      opacity: 1;
+      }
+  100%{
+      transform: rotate(0) translateX(0) translateY(0);
+      opacity: 1;
+      } */
+
+
+}
+
+.elementToAnimate{
+  animation: yourAnimation 1.2s forwards 0s ease-in-out;
+}
+
+
+@keyframes yourAnimation2{
+
+  0%{
+    transform: rotate(0) translateX(+50%);
+    opacity: 0;
+    }
+  
+  100%{
+      transform: rotate(0) translateX(0) translateY(0);
+      opacity: 1;
+      }
+ 
+}
+
+.elementToAnimate2{
+  animation: yourAnimation2 1.2s forwards 0s ease-in-out;
+}
