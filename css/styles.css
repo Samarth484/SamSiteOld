@@ -102,6 +102,7 @@ p {
   position: absolute;
   left: 350px;
   bottom: 300px;
+  animation: bottomCloudAnimation 1.2s forwards 0s ease-in-out;
 }
 
 .skill-row {
@@ -117,6 +118,7 @@ p {
   position: absolute;
   right: 350px;
   top: 50px;
+  animation: topCloudAnimation 1.2s forwards 0s ease-in-out;
 }
 
 .hi {
@@ -308,6 +310,36 @@ hr {
       }
  
 }
+
+@keyframes topCloudAnimation{
+
+  0%{
+    transform: rotate(0) translateX(-260%);
+    opacity: 0;
+    }
+  
+  100%{
+      transform: rotate(0) translateX(0) translateY(0);
+      opacity: 1;
+      }
+ 
+}
+
+@keyframes bottomCloudAnimation{
+
+  0%{
+    transform: rotate(0) translateX(260%);
+    opacity: 0;
+    }
+  
+  100%{
+      transform: rotate(0) translateX(0) translateY(0);
+      opacity: 1;
+      }
+ 
+}
+
+
 
 .elementToAnimate2{
   animation: yourAnimation2 1.2s forwards 0s ease-in-out;
